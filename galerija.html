@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kimono Sushi</title>
+    <link rel="icon" type="image/x-icon" href="SLIKE/ikonica.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f0da5b046.js" crossorigin="anonymous"></script>
+    <!------SKRIPTA KOJA UZIMA IKONE SA STRANICE FONTAWESOME-->
+</head>
+
+<!-----------------------POČETNA STRANICA------------------------->
+
+<body background="Slike/pozadina1.jpg">
+
+    <!----- INTERNI CSS ----->
+    <style>
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+
+        .container {
+            padding: 10px 10vh;
+        }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            margin: 10px 20px;
+        }
+    </style>
+
+    <div id="zaglavlje">
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="slike/logo-kimono.png" class="logo"></a>
+                <ul>
+                    <li><a href="onama.html">O nama</a></li>
+                    <li><a href="sushi.html">Sushi</a></li>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <li><a href="jelovnik.html">Jelovnik</a></li>
+                    <li><a href="kontakt.html">Prijava</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <h1 style="font-size: 60px; font-weight: 600; color: #fff; text-align: center; text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);"><div class="animated slideInDown">Galerija</h1></div>
+<br><br>
+
+    <table style="margin-left: 25px;">
+
+       
+        <tr>
+            <td> <img src="SLIKE/4.jpg" width="603px" height="400px"> </td>
+            <td> <img src="SLIKE/5.jpg" width="603px" height="400px"> </td>
+            <td img rowspan="2"><img src="SLIKE/VISOKI SUSI.jpg" width="620px" height="809px"> </td>
+        </tr>
+
+        <tr>
+            <td> <img src="SLIKE/10.jpg" width="603px" height="400px"> </td>
+            <td> <img src="SLIKE/2.jpg" width="603px" height="400px"> </td>
+        </tr>
+        
+        <tr>
+            <td colspan="3" align="center">
+                <br>
+                <video width="1850px" height="900px" border="10" controls>
+                    <source src="Slike/klip.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+<br><br><br><br><br>
+<footer align="center">
+    <br><br>
+    <hr width="1900px" size="3px" color="white" />
+    <br><br>
+    <font color="white" size="5px">Radno vrijeme</font>
+    <br><br>
+    <font color="white">
+        <p align="center">
+            <span style="color: #ff0000">Ponedjeljak:</span> 8 : 00------------23 : 00<br>
+            <span style="color: #ff0000">Utorak: </span> 8 : 00------------------ 23 : 00<br>
+            <span style="color: #ff0000">Srijeda: </span> 8 : 00------------------23 : 00<br>
+            <span style="color: #ff0000">Četvrtak: </span> 8 : 00----------------23 : 00<br>
+            <span style="color: #ff0000">Petak: </span>8 : 00-------------------23 : 00<br>
+            <span style="color: #ff0000">Subota: </span>8 : 00-----------------23 : 00<br>
+            <span style="color: #ff0000">Nedjelja: </span> 8 : 00----------------23 : 00
+        </p>
+            
+        <br><br><br><br>
+        <font color="white" size="5px">Trenutno vrijeme</font>
+        <br><br><br><br><br><br>
+
+        <div class="clock">
+            <div class="hours"></div>
+            <div class="colon">:</div>
+            <div class="minutes"></div>
+            <div class="colon">:</div>
+            <div class="seconds"></div>
+        </div>
+
+        <br><br>
+    </font>
+
+    <hr width="1900px" size="3px" color="white" />
+    <div class="red">
+        <div class="kontakt-lijevi">
+
+            <p><i class="fa-solid fa-paper-plane"></i>adnan.causevic@treca-gimnazija.edu.ba</p>
+            <p><i class="fa-solid fa-phone"></i>+387 (0)33 724 500</p>
+
+            <div class="ikonicesocijalne">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="kontakt-desni">
+            <br><br>
+            <font color="white" size="5px">Lokacija</font>
+            <br><br>
+
+            <style>
+                a:link {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                a:visited {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                a:active {
+                    color: white;
+                    text-decoration: none;
+                }
+            </style>
+
+
+            <font color="white">
+                <p align="center"><a href="https://goo.gl/maps/YoaTKvdYqzfSTDgSA" target="_blank">Vrbanja 1,
+                        Sarajevo, Bosna i Hercegovina, Federacija Bosne i Hercegovine 71000</p></a>
+            </font>
+            <br>
+            <div class="ikonicesocijalne">
+                <a href="#"><i class="fa-solid fa-money-bill-1"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-visa"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-mastercard"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-amazon-pay"></i></a>
+                <a href="#"><i class="fa-brands fa-btc"></i></a>
+                <a href="#"><i class="fa-brands fa-ethereum"></i></a>
+
+
+
+            </div>
+        </div>
+        <script src="/javascript.js"></script>
+</footer>
+<br><br>
+
+</html>

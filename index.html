@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kimono Sushi</title>
+    <link rel="icon" type="image/x-icon" href="SLIKE/ikonica.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f0da5b046.js" crossorigin="anonymous"></script>
+    <!------SKRIPTA KOJA UZIMA IKONE SA STRANICE FONTAWESOME-->
+</head>
+
+<!-----------------------POČETNA STRANICA------------------------->
+
+<body background="Slike/pozadina1.jpg">
+    <!----- INTERNI CSS ----->
+    <style>
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+
+        .container {
+            padding: 10px 10vh;
+        }
+
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            margin: 10px 20px;
+        }
+    </style>
+
+    <embed src="Slike/Japanska muzika.mp3" loop="true" autostart="true" width="2" height="0">
+    <div id="zaglavlje">
+        <div class="container">
+            <nav>
+
+                <a href="index.html"><img src="slike/logo-kimono.png" alt="Logo se ne moze učitati, žao nam je..."
+                        class="logo"></a>
+                <ul>
+                    <li><a href="onama.html">O nama</a></li>
+                    <li><a href="sushi.html">Sushi</a></li>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <li><a href="jelovnik.html">Jelovnik</a></li>
+                    <li><a href="kontakt.html">Prijava</a></li>
+                </ul>
+            </nav>
+
+            <div class="zaglavlje-tekst">
+                <!-----INLINE CSS----->
+                <p style="color:#fff; font-size: 45px; font-weight: bold; text-align: left;"><br>Sushi restoran / Lounge
+                    bar</p>
+
+                    
+                    <style>
+                        h1 {
+                            font-size: 70px;
+                            margin-top: 3%;
+                            text-align: left;
+                        }
+                
+                        .red-text {
+                            color: #ff0000;
+                            text-shadow: 0 1px 0 #ec0000,
+                            0 2px 0 #d80000,
+                            0 3px 0 #cc0000,
+                            0 4px 0 #be0000,
+                            0 5px 0 #ac0000,
+                            0 6px 1px rgba(0,0,0,.1),
+                            0 0 5px rgba(0,0,0,.1),
+                            0 1px 3px rgba(0,0,0,.3),
+                            0 3px 5px rgba(0,0,0,.2),
+                            0 5px 10px rgba(0,0,0,.25),
+                            0 10px 10px rgba(0,0,0,.2),
+                            0 20px 20px rgba(0,0,0,.15);
+                        }
+                    </style>
+                </head>
+                <body onload="myFunction()">
+                
+                    <h1 id="welcome" >Dobrodošli, na stranicu <span class="red-text">najbolje</span><br><span class="red-text">ocijenjenog</span> sushi
+                    restorana u <span class="red-text">Sarajevu</span></h1>
+                
+                    <script>
+                        function myFunction() {
+                            let name = prompt("Molimo Vas da unesete Vaše ime:", "");
+                            let welcome = document.getElementById("welcome");
+                
+                            if (name == null || name == "") {
+                                welcome.innerHTML = "Dobrodošli, na stranicu <span class='red-text'>najbolje</span><br><span class='red-text'>ocijenjenog</span> sushi restorana u <span class='red-text'>Sarajevu</span>";
+                            } else {
+                                welcome.innerHTML = "Dobrodošli, " + name + ", na stranicu <span class='red-text'>najbolje</span><br><span class='red-text'>ocijenjenog</span> sushi restorana u <span class='red-text'>Sarajevu</span>";
+                            }
+                        }
+                    </script>
+                
+                </body>
+                <BR>
+                    
+                <p style="color:#fff; font-size: 25px; font-weight: bold; ">Novootvoreni objekat Kimono Sushi u
+                    Sarajevu nudi ugodnu atmosferu nalik vašem domu uz moderan japanski
+                    ambijent, što će <br> vam pomoći da dodatno uživate u boravku u našem restoranu. Dođite, probajte
+                    naše mnogobrojne azijske specijalitete i
+                    uvjerite
+                    se zašto nam je slogan: <span
+                        style="color: #ff0000; font-style:italic; font-size: 25px; font-weight: bold; ">"Okus koji
+                        dolazi
+                        iz raja!"</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
